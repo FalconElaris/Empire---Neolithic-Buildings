@@ -118,7 +118,7 @@
 		<defName>stoneMason</defName> <!--Name of Def -->
 		<label>Stone Mason</label> <!--Lable of Def -->
 		<desc></desc>
-		<productionMultiplierAnimals>1.20</productionMultiplierMining>
+		<productionMultiplierMining>1.20</productionMultiplierMining>
 	</FactionColonies.FCTraitEffectDef>
 
 	<!-- Furrier -->
@@ -320,25 +320,25 @@
 		<happinessLostBase>-0.4</happinessLostBase>
 	</FactionColonies.FCTraitEffectDef>
 
-	<!-- Balif -->
+	<!-- bailiff -->
 	<FactionColonies.BuildingFCDef>
-		<defName>balif</defName> <!--Name of Def -->
-		<label>Balif</label> <!--Lable of Def -->
+		<defName>bailiff</defName> <!--Name of Def -->
+		<label>bailiff</label> <!--Lable of Def -->
 		<desc>Does not accept excuses for late rent payments. +10% unrest, 10% tax increase</desc> <!-- Description of trait -->
 		<cost>220</cost>
 		<techLevel>Undefined</techLevel>
 		<constructionDuration>35000</constructionDuration> <!-- Ticks it takes until construction is finished -->
 		<traits> <!-- Put the traits they provide here -->
-			<li>balif</li>
+			<li>bailiff</li>
 		</traits>
 		<applicableBiomes> <!-- If the building requires it to be in a biome, put it here-->
 		</applicableBiomes>
 		<upkeep>-50</upkeep> <!-- cost per week for the building -->
-		<iconPath>GUI/Buildings/balif</iconPath>
+		<iconPath>GUI/Buildings/bailiff</iconPath>
 	</FactionColonies.BuildingFCDef>
 	<FactionColonies.FCTraitEffectDef>
-		<defName>balif</defName> <!--Name of Def -->
-		<label>Balif</label> <!--Lable of Def -->
+		<defName>bailiff</defName> <!--Name of Def -->
+		<label>bailiff</label> <!--Lable of Def -->
 		<desc></desc>
 		<unrestGainedMultiplier>1.10</unrestGainedMultiplier>
 		<taxBasePercentage>10</taxBasePercentage>
